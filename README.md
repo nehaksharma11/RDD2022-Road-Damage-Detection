@@ -23,7 +23,7 @@ Road infrastructure maintenance is critical for public safety and economic effic
 |--------|-------|-------------|
 | mAP@0.5 | **78.11%** | Main detection accuracy |
 | mAP@0.5-0.95 | **49.03%** | Strict IoU metric |
-| Precision|** 74.09%** | Correct detections |
+| Precision|**74.09%** | Correct detections |
 | Recall | **72.77%** | Detection coverage |
 
 ## Model Architecture
@@ -119,19 +119,20 @@ RDD2022-Road-Damage-Detection/
 ├── requirements.txt
 ├── report.pdf
 ├── models/
-│   └── best_model.pt           # Trained model weights (50MB)
+│   └── best_model.pt           
 ├── notebooks/
-│   └── training_notebook.ipynb # Kaggle training notebook
+│   └── training_notebook.ipynb 
 ├── submission/
-│   └── submission.zip          # Competition submission
+│   └── submission.zip          
 ├── docs/
-│   ├── metrics.txt            # Performance metrics
-│   └── data.yaml              # Dataset configuration
+│   ├── metrics.txt            
+│   └── data.yaml              
 ├── scripts/
-│   ├── train.py               # Training script
-│   ├── predict.py             # Inference script
-└── └── evaluate.py            # Evaluation script
+│   ├── train.py              
+│   ├── predict.py            
+└── └── evaluate.py            
 ```
+**Training was performed in Kaggle notebook; scripts are provided for reproducibility and verification**
 
 ##  Methodology
 
