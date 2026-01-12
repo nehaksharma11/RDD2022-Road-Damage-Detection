@@ -1,0 +1,10 @@
+names:
+- Longitudinal Crack
+- Transverse Crack
+- Alligator Crack
+- Other Corruption
+- Pothole
+nc: 5
+path: /kaggle/input/submission/train-20260109T210025Z-3-003
+train: train/images
+val: train/images
